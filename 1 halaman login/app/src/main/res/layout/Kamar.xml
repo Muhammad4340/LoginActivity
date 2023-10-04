@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#91F28F"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/ScreenAtas"
+        android:layout_width="327dp"
+        android:layout_height="144dp"
+        android:background="@drawable/edittext_squaree"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="41dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_logo_foreground"
+        tools:layout_editor_absoluteX="269dp"
+        tools:layout_editor_absoluteY="-25dp" />
+
+    <View
+        android:id="@+id/MenuKamar"
+        android:layout_width="331dp"
+        android:layout_height="48dp"
+        android:background="@drawable/edittext_square"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="240dp" />
+
+    <View
+        android:id="@+id/KolomNama"
+        android:layout_width="331dp"
+        android:layout_height="48dp"
+        android:background="@drawable/edittext_square"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="240dp" />
+
+    <TextView
+        android:id="@+id/Nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha=".3"
+        android:text="Nama"
+        app:layout_constraintEnd_toEndOf="@+id/MenuKamar"
+        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintStart_toStartOf="@+id/MenuKamar"
+        tools:layout_editor_absoluteY="257dp" />
+
+    <View
+        android:id="@+id/KolomKTP"
+        android:layout_width="331dp"
+        android:layout_height="48dp"
+        android:background="@drawable/edittext_square"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="300dp" />
+
+    <TextView
+        android:id="@+id/KTP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha=".3"
+        android:text="No KTP"
+        app:layout_constraintEnd_toEndOf="@+id/MenuKamar"
+        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintStart_toStartOf="@+id/MenuKamar"
+        tools:layout_editor_absoluteY="317dp" />
+
+    <View
+        android:id="@+id/KolomAlamat"
+        android:layout_width="331dp"
+        android:layout_height="48dp"
+        android:background="@drawable/edittext_square"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="360dp" />
+
+    <TextView
+        android:id="@+id/Alamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha=".3"
+        android:text="Alamat"
+        app:layout_constraintEnd_toEndOf="@+id/MenuKamar"
+        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintStart_toStartOf="@+id/MenuKamar"
+        tools:layout_editor_absoluteY="377dp" />
+
+    <View
+        android:id="@+id/KolomAgama"
+        android:layout_width="331dp"
+        android:layout_height="48dp"
+        android:background="@drawable/edittext_square"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="420dp" />
+
+    <TextView
+        android:id="@+id/Agama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha=".3"
+        android:text="Agama"
+        app:layout_constraintEnd_toEndOf="@+id/MenuKamar"
+        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintStart_toStartOf="@+id/MenuKamar"
+        tools:layout_editor_absoluteY="437dp" />
+
+    <View
+        android:id="@+id/KolomIbuKandung"
+        android:layout_width="331dp"
+        android:layout_height="48dp"
+        android:background="@drawable/edittext_square"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="480dp" />
+
+    <TextView
+        android:id="@+id/IbuKandung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha=".3"
+        android:text="Nama Ibu Kandung"
+        app:layout_constraintEnd_toEndOf="@+id/MenuKamar"
+        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintStart_toStartOf="@+id/MenuKamar"
+        tools:layout_editor_absoluteY="497dp" />
+
+    <View
+        android:id="@+id/KontakHP"
+        android:layout_width="331dp"
+        android:layout_height="48dp"
+        android:background="@drawable/edittext_square"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="540dp" />
+
+    <TextView
+        android:id="@+id/KontakHP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha=".3"
+        android:text="Kontak HP"
+        app:layout_constraintEnd_toEndOf="@+id/MenuKamar"
+        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintStart_toStartOf="@+id/MenuKamar"
+        tools:layout_editor_absoluteY="557dp" />
+
+    <View
+        android:id="@+id/KontakOrtu"
+        android:layout_width="331dp"
+        android:layout_height="48dp"
+        android:background="@drawable/edittext_square"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="600dp" />
+
+    <TextView
+        android:id="@+id/Ortu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha=".3"
+        android:text="Kontak Orang Tua"
+        app:layout_constraintEnd_toEndOf="@+id/MenuKamar"
+        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintStart_toStartOf="@+id/MenuKamar"
+        tools:layout_editor_absoluteY="617dp" />
+
+    <View
+        android:id="@+id/KK"
+        android:layout_width="331dp"
+        android:layout_height="48dp"
+        android:background="@drawable/edittext_square"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="660dp" />
+
+    <TextView
+        android:id="@+id/NoKK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha=".3"
+        android:text="No KK"
+        app:layout_constraintEnd_toEndOf="@+id/MenuKamar"
+        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintStart_toStartOf="@+id/MenuKamar"
+        tools:layout_editor_absoluteY="677dp" />
+
+    <View
+        android:id="@+id/Pekerjaan"
+        android:layout_width="331dp"
+        android:layout_height="48dp"
+        android:background="@drawable/edittext_square"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="720dp" />
+
+    <TextView
+        android:id="@+id/Kerja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha=".3"
+        android:text="Pekerjaan"
+        app:layout_constraintEnd_toEndOf="@+id/MenuKamar"
+        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintStart_toStartOf="@+id/MenuKamar"
+        tools:layout_editor_absoluteY="737dp" />
+
+    <View
+        android:id="@+id/Pekerjaan"
+        android:layout_width="331dp"
+        android:layout_height="48dp"
+        android:background="@drawable/edittext_square"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="720dp" />
+
+    <TextView
+        android:id="@+id/Kerja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha=".3"
+        android:text="Pekerjaan"
+        app:layout_constraintEnd_toEndOf="@+id/MenuKamar"
+        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintStart_toStartOf="@+id/MenuKamar"
+        tools:layout_editor_absoluteY="737dp" />
+
+    <View
+        android:id="@+id/JenKel"
+        android:layout_width="331dp"
+        android:layout_height="48dp"
+        android:background="@drawable/edittext_square"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="780dp" />
+
+    <TextView
+        android:id="@+id/Kelamin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha=".3"
+        android:text="Jenis Kelamin"
+        app:layout_constraintEnd_toEndOf="@+id/MenuKamar"
+        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintStart_toStartOf="@+id/MenuKamar"
+        tools:layout_editor_absoluteY="797dp" />
+
+    <TextView
+        android:id="@+id/Pendaftaran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pekerjaan"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="212dp" />
+
+    <View
+        android:id="@+id/ModelKamar"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:background="@drawable/edittext_square"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="844dp" />
+
+    <TextView
+        android:id="@+id/ModelKamar"
+        android:layout_width="92dp"
+        android:layout_height="26dp"
+        android:alpha=".3"
+        android:text="Jenis Kelamin"
+        android:textSize="9"
+        app:layout_constraintEnd_toEndOf="@+id/MenuKamar"
+        app:layout_constraintHorizontal_bias="0.037"
+        app:layout_constraintStart_toStartOf="@+id/MenuKamar"
+        tools:layout_editor_absoluteY="849dp" />
+
+    <View
+        android:id="@+id/HargaKamar"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:background="@drawable/edittext_square"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintStart_toEndOf="@+id/ModelKamar"
+        tools:layout_editor_absoluteY="844dp" />
+
+    <TextView
+        android:id="@+id/HargaKam"
+        android:layout_width="92dp"
+        android:layout_height="26dp"
+        android:alpha=".3"
+        android:text="Harga Kamar"
+        android:textSize="9"
+        app:layout_constraintEnd_toEndOf="@+id/MenuKamar"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/MenuKamar"
+        tools:layout_editor_absoluteY="844dp" />
+
+    <View
+        android:id="@+id/JumlahOrg"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="48dp"
+        android:background="@drawable/edittext_square"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/HargaKamar"
+        tools:layout_editor_absoluteY="844dp" />
+
+    <TextView
+        android:id="@+id/JumlahOrang"
+        android:layout_width="92dp"
+        android:layout_height="26dp"
+        android:alpha=".3"
+        android:text="Jumlah Orang"
+        android:textSize="9"
+        app:layout_constraintEnd_toEndOf="@+id/MenuKamar"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/MenuKamar"
+        tools:layout_editor_absoluteY="849dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
